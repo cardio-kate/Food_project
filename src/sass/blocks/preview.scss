@@ -26,6 +26,12 @@
 .tabcontent {
     width: 850px;
     position: relative;
+    &.hide {
+        display: none;
+    }
+    &.show {
+        display: block;
+    }
     img {
         width: 100%;
         height: 100%;
